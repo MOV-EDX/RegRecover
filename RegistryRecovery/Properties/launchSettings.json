@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RegistryRecovery": {
+      "commandName": "Project",
+      "commandLineArgs": "-components \"C:\\Users\\bsodt\\Documents\\Windows Update Tools\\COMPONENTS\" -log \"C:\\Users\\bsodt\\Desktop\\ComponentsScanner.txt\""
+    }
+  }
+}
