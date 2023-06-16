@@ -50,7 +50,7 @@ namespace RegRecover
 
                     if (line.StartsWith("Suggestion:"))
                     {
-                        string suggestion = line.Trim().Replace("Suggestion:", string.Empty);
+                        string suggestion = line.Replace("Suggestion:", string.Empty).Trim();
                         suggestion = pattern.Replace(suggestion, " ");
 
                         byte[] data = Encoding.ASCII.GetBytes(suggestion);
