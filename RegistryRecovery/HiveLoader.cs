@@ -1,5 +1,8 @@
 ﻿using Microsoft.Win32;
 using System.Runtime.InteropServices;
+#if NET45
+using System;
+#endif
 
 namespace RegRecover
 {
